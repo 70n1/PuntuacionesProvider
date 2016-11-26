@@ -1,0 +1,15 @@
+<manifest xmlns:android="http://schemas.android.com/apk/res/android"
+    package="org.example.puntuacionesprovider">
+
+    <application android:allowBackup="true"
+        android:label="@string/app_name"
+        android:icon="@mipmap/ic_launcher"
+        android:supportsRtl="true"
+        android:theme="@style/AppTheme">
+        <provider
+            android:authorities="org.example.puntuacionesprovider"
+            android:name="org.example.puntuacionesprovider.PuntuacionesProvider"
+            android:exported="true"/>
+    </application>
+
+</manifest>
