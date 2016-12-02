@@ -17,7 +17,7 @@ import android.text.TextUtils;
 
 
 public class PuntuacionesProvider extends ContentProvider {
-    public static final String AUTORIDAD = "com.example.puntuacionesprovider";
+    public static final String AUTORIDAD = "org.example.puntuacionesprovider";
     public static final Uri CONTENT_URI = Uri.parse("content://" + AUTORIDAD + "/puntuaciones");
     public static final int TODOS_LOS_ELEMENTOS = 1;
     public static final int UN_ELEMENTO = 2;
